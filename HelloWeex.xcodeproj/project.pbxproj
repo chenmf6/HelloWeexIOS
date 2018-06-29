@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE4E5D7A20E60D0900250D36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E5D7920E60D0900250D36 /* AppDelegate.m */; };
+		BE4E5D7D20E60D0900250D36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E5D7C20E60D0900250D36 /* ViewController.m */; };
+		BE4E5D8020E60D0900250D36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4E5D7E20E60D0900250D36 /* Main.storyboard */; };
+		BE4E5D8220E60D1B00250D36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE4E5D8120E60D1B00250D36 /* Assets.xcassets */; };
+		BE4E5D8520E60D1B00250D36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4E5D8320E60D1B00250D36 /* LaunchScreen.storyboard */; };
+		BE4E5D8820E60D1B00250D36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E5D8720E60D1B00250D36 /* main.m */; };
+		BE4E5D9220E60D1B00250D36 /* HelloWeexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E5D9120E60D1B00250D36 /* HelloWeexTests.m */; };
+		BE4E5D9D20E60D1B00250D36 /* HelloWeexUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E5D9C20E60D1B00250D36 /* HelloWeexUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE4E5D8E20E60D1B00250D36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE4E5D6D20E60D0900250D36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE4E5D7420E60D0900250D36;
+			remoteInfo = HelloWeex;
+		};
+		BE4E5D9920E60D1B00250D36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE4E5D6D20E60D0900250D36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE4E5D7420E60D0900250D36;
+			remoteInfo = HelloWeex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE4E5D7520E60D0900250D36 /* HelloWeex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWeex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4E5D7820E60D0900250D36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE4E5D7920E60D0900250D36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE4E5D7B20E60D0900250D36 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE4E5D7C20E60D0900250D36 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE4E5D7F20E60D0900250D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE4E5D8120E60D1B00250D36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE4E5D8420E60D1B00250D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE4E5D8620E60D1B00250D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE4E5D8720E60D1B00250D36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE4E5D8D20E60D1B00250D36 /* HelloWeexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWeexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4E5D9120E60D1B00250D36 /* HelloWeexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWeexTests.m; sourceTree = "<group>"; };
+		BE4E5D9320E60D1B00250D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE4E5D9820E60D1B00250D36 /* HelloWeexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWeexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4E5D9C20E60D1B00250D36 /* HelloWeexUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWeexUITests.m; sourceTree = "<group>"; };
+		BE4E5D9E20E60D1B00250D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE4E5D7220E60D0900250D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4E5D8A20E60D1B00250D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4E5D9520E60D1B00250D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE4E5D6C20E60D0900250D36 = {
+			isa = PBXGroup;
+			children = (
+				BE4E5D7720E60D0900250D36 /* HelloWeex */,
+				BE4E5D9020E60D1B00250D36 /* HelloWeexTests */,
+				BE4E5D9B20E60D1B00250D36 /* HelloWeexUITests */,
+				BE4E5D7620E60D0900250D36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE4E5D7620E60D0900250D36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE4E5D7520E60D0900250D36 /* HelloWeex.app */,
+				BE4E5D8D20E60D1B00250D36 /* HelloWeexTests.xctest */,
+				BE4E5D9820E60D1B00250D36 /* HelloWeexUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE4E5D7720E60D0900250D36 /* HelloWeex */ = {
+			isa = PBXGroup;
+			children = (
+				BE4E5D7820E60D0900250D36 /* AppDelegate.h */,
+				BE4E5D7920E60D0900250D36 /* AppDelegate.m */,
+				BE4E5D7B20E60D0900250D36 /* ViewController.h */,
+				BE4E5D7C20E60D0900250D36 /* ViewController.m */,
+				BE4E5D7E20E60D0900250D36 /* Main.storyboard */,
+				BE4E5D8120E60D1B00250D36 /* Assets.xcassets */,
+				BE4E5D8320E60D1B00250D36 /* LaunchScreen.storyboard */,
+				BE4E5D8620E60D1B00250D36 /* Info.plist */,
+				BE4E5D8720E60D1B00250D36 /* main.m */,
+			);
+			path = HelloWeex;
+			sourceTree = "<group>";
+		};
+		BE4E5D9020E60D1B00250D36 /* HelloWeexTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE4E5D9120E60D1B00250D36 /* HelloWeexTests.m */,
+				BE4E5D9320E60D1B00250D36 /* Info.plist */,
+			);
+			path = HelloWeexTests;
+			sourceTree = "<group>";
+		};
+		BE4E5D9B20E60D1B00250D36 /* HelloWeexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE4E5D9C20E60D1B00250D36 /* HelloWeexUITests.m */,
+				BE4E5D9E20E60D1B00250D36 /* Info.plist */,
+			);
+			path = HelloWeexUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE4E5D7420E60D0900250D36 /* HelloWeex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE4E5DA120E60D1B00250D36 /* Build configuration list for PBXNativeTarget "HelloWeex" */;
+			buildPhases = (
+				BE4E5D7120E60D0900250D36 /* Sources */,
+				BE4E5D7220E60D0900250D36 /* Frameworks */,
+				BE4E5D7320E60D0900250D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWeex;
+			productName = HelloWeex;
+			productReference = BE4E5D7520E60D0900250D36 /* HelloWeex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE4E5D8C20E60D1B00250D36 /* HelloWeexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE4E5DA420E60D1B00250D36 /* Build configuration list for PBXNativeTarget "HelloWeexTests" */;
+			buildPhases = (
+				BE4E5D8920E60D1B00250D36 /* Sources */,
+				BE4E5D8A20E60D1B00250D36 /* Frameworks */,
+				BE4E5D8B20E60D1B00250D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE4E5D8F20E60D1B00250D36 /* PBXTargetDependency */,
+			);
+			name = HelloWeexTests;
+			productName = HelloWeexTests;
+			productReference = BE4E5D8D20E60D1B00250D36 /* HelloWeexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE4E5D9720E60D1B00250D36 /* HelloWeexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE4E5DA720E60D1B00250D36 /* Build configuration list for PBXNativeTarget "HelloWeexUITests" */;
+			buildPhases = (
+				BE4E5D9420E60D1B00250D36 /* Sources */,
+				BE4E5D9520E60D1B00250D36 /* Frameworks */,
+				BE4E5D9620E60D1B00250D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE4E5D9A20E60D1B00250D36 /* PBXTargetDependency */,
+			);
+			name = HelloWeexUITests;
+			productName = HelloWeexUITests;
+			productReference = BE4E5D9820E60D1B00250D36 /* HelloWeexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE4E5D6D20E60D0900250D36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = xiao;
+				TargetAttributes = {
+					BE4E5D7420E60D0900250D36 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					BE4E5D8C20E60D1B00250D36 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BE4E5D7420E60D0900250D36;
+					};
+					BE4E5D9720E60D1B00250D36 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = BE4E5D7420E60D0900250D36;
+					};
+				};
+			};
+			buildConfigurationList = BE4E5D7020E60D0900250D36 /* Build configuration list for PBXProject "HelloWeex" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE4E5D6C20E60D0900250D36;
+			productRefGroup = BE4E5D7620E60D0900250D36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE4E5D7420E60D0900250D36 /* HelloWeex */,
+				BE4E5D8C20E60D1B00250D36 /* HelloWeexTests */,
+				BE4E5D9720E60D1B00250D36 /* HelloWeexUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE4E5D7320E60D0900250D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4E5D8520E60D1B00250D36 /* LaunchScreen.storyboard in Resources */,
+				BE4E5D8220E60D1B00250D36 /* Assets.xcassets in Resources */,
+				BE4E5D8020E60D0900250D36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4E5D8B20E60D1B00250D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4E5D9620E60D1B00250D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE4E5D7120E60D0900250D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4E5D7D20E60D0900250D36 /* ViewController.m in Sources */,
+				BE4E5D8820E60D1B00250D36 /* main.m in Sources */,
+				BE4E5D7A20E60D0900250D36 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4E5D8920E60D1B00250D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4E5D9220E60D1B00250D36 /* HelloWeexTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4E5D9420E60D1B00250D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4E5D9D20E60D1B00250D36 /* HelloWeexUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE4E5D8F20E60D1B00250D36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE4E5D7420E60D0900250D36 /* HelloWeex */;
+			targetProxy = BE4E5D8E20E60D1B00250D36 /* PBXContainerItemProxy */;
+		};
+		BE4E5D9A20E60D1B00250D36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE4E5D7420E60D0900250D36 /* HelloWeex */;
+			targetProxy = BE4E5D9920E60D1B00250D36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE4E5D7E20E60D0900250D36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE4E5D7F20E60D0900250D36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE4E5D8320E60D1B00250D36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE4E5D8420E60D1B00250D36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE4E5D9F20E60D1B00250D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE4E5DA020E60D1B00250D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE4E5DA220E60D1B00250D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloWeex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiao.HelloWeex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE4E5DA320E60D1B00250D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloWeex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiao.HelloWeex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE4E5DA520E60D1B00250D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloWeexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiao.HelloWeexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWeex.app/HelloWeex";
+			};
+			name = Debug;
+		};
+		BE4E5DA620E60D1B00250D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloWeexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiao.HelloWeexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWeex.app/HelloWeex";
+			};
+			name = Release;
+		};
+		BE4E5DA820E60D1B00250D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloWeexUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiao.HelloWeexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloWeex;
+			};
+			name = Debug;
+		};
+		BE4E5DA920E60D1B00250D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloWeexUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiao.HelloWeexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloWeex;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE4E5D7020E60D0900250D36 /* Build configuration list for PBXProject "HelloWeex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE4E5D9F20E60D1B00250D36 /* Debug */,
+				BE4E5DA020E60D1B00250D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE4E5DA120E60D1B00250D36 /* Build configuration list for PBXNativeTarget "HelloWeex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE4E5DA220E60D1B00250D36 /* Debug */,
+				BE4E5DA320E60D1B00250D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE4E5DA420E60D1B00250D36 /* Build configuration list for PBXNativeTarget "HelloWeexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE4E5DA520E60D1B00250D36 /* Debug */,
+				BE4E5DA620E60D1B00250D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE4E5DA720E60D1B00250D36 /* Build configuration list for PBXNativeTarget "HelloWeexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE4E5DA820E60D1B00250D36 /* Debug */,
+				BE4E5DA920E60D1B00250D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE4E5D6D20E60D0900250D36 /* Project object */;
+}
