@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import <WeexSDK.h>
+#import "WeexHandler/WXImgLoaderDefaultImpl.h"
+#import "WeexViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //business configuration
+    [WXAppConfiguration setAppGroup:@"AliApp"];
+    [WXAppConfiguration setAppName:@"HelloWeex"];
+    [WXAppConfiguration setAppVersion:@"1.0.0"];
+    //init sdk enviroment
+    [WXSDKEngine initSDKEnvironment];
+    WeexViewController* wxViewController = [WeexViewController new];
+    self.window.rootViewController = wxViewController;
+    //此代码用于加载网络图片
+    [WXSDKEngine registerHandler:[WXImgLoaderDefaultImpl new] withProtocol:@protocol(WXImgLoaderProtocol)];
+    //set the log level
+    [WXLog setLogLevel: WXLogLevelAll];
     return YES;
 }
 
